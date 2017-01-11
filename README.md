@@ -1,3 +1,8 @@
+<style>
+  .markdown-body table td {
+    font-size: 8px !important;
+  }
+</style>
 # kokodoko_scoresheet
 デイリーポータルZ「ここはどこでしょう？」の正解者をまとめるスクリプト
 
