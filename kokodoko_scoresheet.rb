@@ -326,8 +326,9 @@ if ARGV[1] == "sort" then
 else
   sep  = ARGV[1] == "table" ? '|' : ','
   ends = ARGV[1] == "table" ? '|' : ''
-  puts sep+da.join(sep)+sep if ARGV[1] == "table"
-  puts (sep+"---")*da.size+sep if ARGV[1] == "table"
+  quo  = ARGV[1] == "table" ? '' : '"'
+  puts sep+''+sep+da.join(sep)+sep if ARGV[1] == "table"
+  puts (sep+"---")*(da.size+1)+sep if ARGV[1] == "table"
   #newer sort
   h.sort_by.with_index{|s,i|
     [s[1].values_at,i]
@@ -337,7 +338,7 @@ else
     #   s.gsub!(x,y)
     # }
     s = "'"+s if /^[0-9]+$/ =~ s
-    puts ends+"\""+s+"\"#{sep}"+[k.values_at(*da),k.size].join(sep)+ends
+    puts ends+"#{quo}"+s+"#{quo}"+sep+[k.values_at(*da),k.size].join(sep)+ends
   }
 
   #h.sort_by.with_index{|s,i|[s[1].values_at,i]}.map{|n,k|s=n.dup;rr.map{|x,y|s.gsub!(x,y)};puts "\""+s+"\","+[k.values_at(*da),k.size].join(',')}
