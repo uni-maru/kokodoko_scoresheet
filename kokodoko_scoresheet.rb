@@ -79,6 +79,7 @@ nr.map{|t|y=t.shift;t.map{|s|nrr[s]=y}}
 a.to_a.reverse.map{|d,s|
   da << d
   s.split("／").map.with_index(1){|n,i|
+    n.lstrip!
     nrr.map{|x,y|
       next n.sub!(x,y) if n==x
     }
