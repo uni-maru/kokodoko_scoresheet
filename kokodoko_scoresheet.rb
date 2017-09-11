@@ -105,8 +105,6 @@ a.to_a.reverse.map{|d,s|
 #orignal
 #h.sort_by.with_index{|s,i|[-s[1].size,i]}.map{|n,k|s=n.dup;rr.map{|x,y|s.gsub!(x,y)};puts [s,k.values_at(*da)].join(',')}
 
-# 数値だけの場合 ' を先頭に付ける
-
 if ARGV[1] == "sort" then
 #name sort
   h.map{|n,k|
@@ -135,7 +133,7 @@ else
     # rr.map{|x,y|
     #   s.gsub!(x,y)
     # }
-    s = "'"+s if /^[0-9]+$/ =~ s
+    s = "'"+s if /^[0-9]+$/ =~ s # 数値だけの場合 ' を先頭に付ける
     puts ends+"#{quo}"+s+"#{quo}"+sep+[k.values_at(*da),k.size].join(sep)+ends
   }
 
