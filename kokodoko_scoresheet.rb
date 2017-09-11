@@ -81,6 +81,7 @@ a.to_a.reverse.map{|d,s|
   s.split("／").map.with_index(1){|n,i|
     n.lstrip!
     nrr.map{|x,y|
+      if n==x and da.first == d then STDERR.puts d+" "+x+"→"+y end
       next n.sub!(x,y) if n==x
     }
     # r.map{|x,y|
