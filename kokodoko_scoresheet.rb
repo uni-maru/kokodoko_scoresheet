@@ -12,9 +12,6 @@ o=ARGV[0].to_i
 
 a={}
 
-# ここはどこでしょう？
-#
-
 file_list = {
   '第1回'  => 'lists/kd_winner_01.txt',
   '第2回'  => 'lists/kd_winner_02.txt',
@@ -63,11 +60,6 @@ file_list.each {|no, fname|
 
 da=[]
 h=Hash.new{|h,k|h[k]={}}
-#a.map{|d,s|da<<d;s.split("／").map.with_index(1){|n,i|h[n][d]=i}}
-#a.map{|d,s|da<<d;s.split("／").map.with_index(1){|n,i|h[n][d]=i if !h[n].key?(d)}}
-
-#original
-#a.map{|d,s|da<<d;s.split("／").map.with_index(1){|n,i|r.map{|x,y|n.gsub!(x,y)};if !h[n].key?(d) then h[n][d]=i else STDERR.puts "dup! #{d}  #{n} : #{i} > #{h[n][d]}" end}}
 
 #read nayose
 nr = CSV.read("./nayose.csv")
@@ -84,9 +76,6 @@ a.to_a.reverse.map{|d,s|
       if n==x and da.first == d then STDERR.puts d+" "+x+"→"+y end
       next n.sub!(x,y) if n==x
     }
-    # r.map{|x,y|
-    #   if n.gsub!(x,y) then STDERR.puts d+" "+x+"→"+y end
-    # }
     if !h[n].key?(d) then
       h[n][d]=i
     else
@@ -94,24 +83,10 @@ a.to_a.reverse.map{|d,s|
   }
 }
 
-#a.to_a.reverse.map{|d,s|da<<d;s.split("／").map.with_index(1){|n,i|r.map{|x,y|if n.gsub!(x,y) then STDERR.puts d+" "+x+"→"+y end};if !h[n].key?(d) then h[n][d]=i else STDERR.puts "dup! #{d}  #{n} : #{i} > #{h[n][d]}" end}}
-
-
-#a.to_a.reverse.map{|d,s|da<<d;s.split("／").map.with_index(1){|n,i|r.map{|x,y|if(n.gsub!(x,y)) then STDERR.puts x end};if !h[n].key?(d) then h[n][d]=i else STDERR.puts "dup! #{d}  #{n} : #{i} > #{h[n][d]}" end}}
-
-#puts ["名前",da].join(',')
-#h.sort_by.with_index{|s,i|[-s[1].size,i]}.map{|n,k|puts [n,k.values_at(*da)].join(',')}
-
-#orignal
-#h.sort_by.with_index{|s,i|[-s[1].size,i]}.map{|n,k|s=n.dup;rr.map{|x,y|s.gsub!(x,y)};puts [s,k.values_at(*da)].join(',')}
-
 if ARGV[1] == "sort" then
 #name sort
   h.map{|n,k|
     s=n.dup
-    # rr.map{|x,y|
-    #   s.gsub!(x,y)
-    # }
     [s,k.values_at(*da),k.size]
   }.sort_by{|s|
     s
@@ -137,10 +112,4 @@ else
     puts ends+"#{quo}"+s+"#{quo}"+sep+[k.values_at(*da),k.size].join(sep)+ends
   }
 
-  #h.sort_by.with_index{|s,i|[s[1].values_at,i]}.map{|n,k|s=n.dup;rr.map{|x,y|s.gsub!(x,y)};puts "\""+s+"\","+[k.values_at(*da),k.size].join(',')}
-
 end
-
-
-
-#h.sort_by{|k,v|[k.size,k]}.map{|n,k|puts [n,k.values_at(*da)].join(',')}
