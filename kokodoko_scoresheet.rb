@@ -44,6 +44,7 @@ file_list = {
   '第29回' => 'lists/kd_winner_29.txt',
   '第30回' => 'lists/kd_winner_30.txt',
   '第32回' => 'lists/kd_winner_32.txt',
+  '第33回' => 'lists/kd_winner_33.txt',
 }
 
 file_list.each {|no, fname|
