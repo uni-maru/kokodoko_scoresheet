@@ -90,7 +90,10 @@ if ARGV[1] == "sort" then
     s=n.dup
     [s,k.values_at(*da),k.size]
   }.sort_by{|s|
-    s
+    s.first.tr('ァ-ン','ぁ-ん').tr('０-９ａ-ｚＡ-Ｚ', '0-9a-zA-Z')
+      .tr('★','').tr('☆','').tr('●','').tr('▲','').tr('◆','')
+      .tr('♪','').tr('■','').tr('※','').tr('！','').tr('？','')
+      .downcase
   }.map{|s|
     puts s.join(',')
   }
