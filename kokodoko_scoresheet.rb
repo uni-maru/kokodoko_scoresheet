@@ -74,14 +74,19 @@ a.to_a.reverse.map{|d,s|
   da << d
   s.split("／").map.with_index(1){|n,i|
     n.lstrip!
+    ndup=n.dup
     nrr.map{|x,y|
-      if n==x and da.first == d then STDERR.puts d+" "+x+"→"+y end
+      if n==x and da.first==d then STDERR.puts d+" "+x+"→"+y end
       next n.sub!(x,y) if n==x
     }
     if !h[n].key?(d) then
       h[n][d]=i
     else
-      STDERR.puts "dup! #{d}  #{n} : #{i} > #{h[n][d]}" end
+      STDERR.puts "dup! #{d}  #{n} : #{i} > #{h[n][d]}"
+      nrr.map{|x,y|
+        if ndup==x then STDERR.puts x+"→"+y end
+      }
+    end
   }
 }
 
