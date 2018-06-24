@@ -46,6 +46,7 @@ file_list = {
   '第32回' => 'lists/kd_winner_32.txt',
   '第33回' => 'lists/kd_winner_33.txt',
   '第34回' => 'lists/kd_winner_34.txt',
+  '第36回' => 'lists/kd_winner_36.txt',
 }
 
 file_list.each {|no, fname|
@@ -99,9 +100,12 @@ if ARGV[1] == "sort" then
     s.first.tr('ァ-ン','ぁ-ん').tr('０-９ａ-ｚＡ-Ｚ', '0-9a-zA-Z')
       .tr('★','').tr('☆','').tr('●','').tr('▲','').tr('◆','')
       .tr('♪','').tr('■','').tr('※','').tr('！','').tr('？','')
-      .tr('[','').tr('@','')
+      .tr('∴','').tr('[','').tr('@','')
       .downcase
   }.map{|s|
+    if s[1].first != nil and s.last == 1 then
+      s << "#####new#####"
+    end
     puts s.join(',')
   }
 
