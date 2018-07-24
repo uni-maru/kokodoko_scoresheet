@@ -3,21 +3,27 @@
 C.C.messiah,C.C.メシア
 DEXTURE,Dexture
 HAT,ＨＡＴ,Hat
-HD63C09,HDC6309
+HD63C09E,HD63C09,HDC6309
 HiM,HIM
 Jack,Ｊａｃｋ
+Jason Jae 酒田,Jason Jae サカタ
 K-YAMA,k-yama
+KAZ71,KAZ0701
+Knog192,Knog Toxin,KNOG TOXIN
+Maochan,maochan
 Minty Lemon,MintyLemon
 Mizo、,"Mizo,",Ｍｉｚｏ,Mizo
 NYAGORO,NYAGORO2001
 OTT2,TT2
 PEDDLER,peddler
-Pま★,Pま
+Pま(6:4)★,Pま★,Pま
 RF31,RF３１
 ROS,ROD
 Rossi musha,Rossi Musha
 SUIHO,Suiho
+Sammydili,sammydili,SammyDili
 Shanghai-Joe,Shanghai-joe
+Shin,shin
 TYHOPY,ＴＹＨＯＰＹ
 Tatiana0719,Ｔａｔｉａｎａ0719
 Tossy,tossy
@@ -25,25 +31,24 @@ Travis_Walk,travis_walk
 USG54013,USG
 Xiaomu,Xiamu
 YAS.,YAS
-blc48,blc49,BLC48,BLC49
+blc49,blc48,BLC48,BLC49
 carpman,carpma
 cmo11,C-mo11
 d(H-Y)b,(H-Y)
 eastwood,westwood
 ga881,GA881
 genki375,Genki*375
+johondoe991,johndoe991
 k-130,K-130
 katos583,katos485
 koushi,Koushi
 kukukukuma,Kukukukuma
-maochan,Maochan
 martha,martua
 moncoけんぢろ〜,monco健二郎
 ossanazuma,osanazuma
 pakupaku,pakupaku 
 punipuni,punipuni 
-sage000,sage
-sammydili,SammyDili
+sage,sage000
 sd_nano,sdnano
 sgo,sgo20160117116,sgoalopha
 sk_mot,sk_not,skmot
@@ -54,6 +59,7 @@ taros,TAROS
 tytytyty,ｔｙｔｙｔｙ,ｔｙｔｙｔｙｔｙ,tytyty
 ucchie1972,ucchie,ucchie2772,ucchie2001
 young young,youngyoung
+youyou,youyou22
 yuppppppppppa,yuppppa
 ☆☆☆さとつかんちゃん☆☆☆,さとつかんちゃん
 ☆★Council★☆,Council☆,☆Council★,council,Council
@@ -67,6 +73,7 @@ yuppppppppppa,yuppppa
 ★★★しおはる★★★,しおはる
 ★★てっつん☆☆,てっつん
 ★★なおじい★★,なおじい
+★くみちょ～☆,くみちょ～
 ★さすらいの神経内科医★,さすらいの脳神経内科医,ひきこもり神経内科
 ★したばたらき★,したばたらき
 ★しゃりけん★,しゃりけん
@@ -87,11 +94,13 @@ yuppppppppppa,yuppppa
 ♪brian,Brian
 Ｎｅｒ,Ner
 あかりぱぱ,あかりパパ
+あや文（まきもの）,まきもの,あや文
 いーにょん,い〜にょん
 ういず,うぃず
 うんげほいあー,うんげほいあ
 えすこま320,えすこま
 え～じぃ,え〜じぃ
+おーちゃん★,おーちゃん
 おぐＰちゃん,おぐPちゃん,おぐP−ちゃん,おぐP－ちゃん
 おにぎり＠芋洗坂,おにぎり
 かとちゃぼ,カトチャボ
@@ -101,8 +110,9 @@ yuppppppppppa,yuppppa
 きんぎょ(のぞ),きんぎょ
 きんじょ(愛知県),きんじょ（愛知県）,きんじょ
 くじらとかえる,かえるとくじら
+くろちゃん,くろちゃん♪
 こあら２号,こあら２号★
-こっしー,コッシー
+こっし,こっしー,コッシー
 こばや(@ts_kobaya),kobaya　(こばや),kobaya(こばや)
 さだはる＠がんばらない,さだはる
 さようならシークレットブーツの似合うチビテラしぇんしぇい,５０歳なのに七五三に間違われたちびテラ,見栄坊のちびテラ,けちの寺田,ちびの寺田
@@ -128,7 +138,7 @@ yuppppppppppa,yuppppa
 にゃんごろ～,にゃんごろー
 にゃ～ちゃん,にゃ~ちゃん
 ぬぬぬぬ,ぬぬぬぬぬ
-ぬまりん,ぬまりん
+ぬま?りん,ぬまりん,ぬまりん
 はくぶん,はくぶｎ
 はらたいまに3000点,はらたいまに全部
 はるまき,春巻生春巻,春巻き生春巻き,はるまきなまはるまき
@@ -142,12 +152,11 @@ yuppppppppppa,yuppppa
 ふじけら。,ふじけら
 へいぽこ@妊婦,へいぽこ
 ほえほえ０２,ほえほえ02
+ぽりーん,ぽりーん12世
 ぽんぱぱ,ぽんパパ
 まうさん,まうさん？
-まきもの,あや文
 みー＠白黒兎ちゃん同盟,みー
 みぃ,みぃ☆
-みげえる,ミゲエル,みげえるS,みげえる鈴木,ミゲエルS
 むんふー(蒲郡市),むんふー
 もりし☆,もりし
 もんき〜3号,もんき?3号
@@ -160,9 +169,10 @@ yuppppppppppa,yuppppa
 りっぷる・ふぉっくす,りっぷるふぉっくす
 れんこん★,れんこん
 わきんちょ★,わきんちょ☆,わきんちょ
+アミーゴ★,アミーゴ
 イマジンガーグル,imaginegargle,イマジン・ガーグル
 オクラ同好会,オクラ同好会前田
-オサム@神戸,オサム,オサム君,オサム君（中井オサム改めます。フルネームの人なんて他にいなかった…）,中井オサム
+オサム＠神戸,オサム@神戸,オサム,オサム君,オサム君（中井オサム改めます。フルネームの人なんて他にいなかった…）,中井オサム
 ガルガン爺,ガルガンジー,カルガンちゃん,ガルガンちゃん
 クソメガネん,クソメガネ
 ゴキンチャン,ゴキンちゃん
@@ -179,6 +189,7 @@ yuppppppppppa,yuppppa
 ハオコゼ21号,ハオコゼ２１号
 ハナフクロウ,はなふくろう
 バケラッタ,バケラッタ！
+ピロシキ！！！,ピロシキ
 フェルディナンド,フェルディナント高島
 フミさんさん,ふみさんさん
 プリン好きのネコ,プリン好きのねこ
@@ -186,6 +197,7 @@ yuppppppppppa,yuppppa
 ポラリス,ポラリス銀行
 マティ,マティー
 マワル班長,■マワル班長■
+ミゲエル,みげえる,みげえるS,みげえる鈴木,ミゲエルS
 ユータＧ,ユータG
 ランジェリー旬報～旬な下着情報～,ランジェリー旬報＝旬な下着情報＝,ランジェリー旬報〜旬な下着情報〜,ランジェリー旬報?旬な下着情報?,ランジェリー旬報〜旬な下着情報?,ランジェリー旬報
 暗渠の民,暗渠狂,暗渠バカ
