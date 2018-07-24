@@ -55,7 +55,7 @@ file_list.each {|no, fname|
   next if o == 1 and fname =~ /ki/
   File.open(fname) {|file|
     a[no] = file.read.
-            gsub(/（\d{4}\/\d{1,2}\/\d{2}\s+\d{1,2}:\d{1,2}:\d{1,2}）/, ''). # メール到着時刻を除去
+            gsub(/（\d{4}\/\d{1,2}\/\d{1,2}\s+\d{1,2}:\d{1,2}:\d{1,2}）/, ''). # メール到着時刻を除去
             gsub(/&amp;/, '&'). # &amp; は & に変換
             gsub(/\n/, '') # 改行を除去
   }
