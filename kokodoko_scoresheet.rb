@@ -49,6 +49,7 @@ file_list = {
   '第36回' => 'lists/kd_winner_36.txt',
   '第37回' => 'lists/kd_winner_37.txt',
   '第38回' => 'lists/kd_winner_38.txt',
+  '第39回' => 'lists/kd_winner_39.txt',
 }
 
 file_list.each {|no, fname|
@@ -102,7 +103,7 @@ if ARGV[1] == "sort" then
     s.first.tr('ァ-ン','ぁ-ん').tr('０-９ａ-ｚＡ-Ｚ', '0-9a-zA-Z')
       .tr('★','').tr('☆','').tr('●','').tr('▲','').tr('◆','')
       .tr('♪','').tr('■','').tr('※','').tr('！','').tr('？','')
-      .tr('◎','').tr('△','').tr('　','').tr('?','')
+      .tr('◎','').tr('△','').tr('　','').tr('?','').tr('〓','')
       .tr('∴','').tr('[','').tr('@','')
       .downcase
   }.map{|s|
