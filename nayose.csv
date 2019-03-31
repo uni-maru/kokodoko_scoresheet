@@ -5,6 +5,7 @@ DEXTURE,Dexture
 HAT,ＨＡＴ,Hat
 HD63C09E,HD63C09,HDC6309
 HiM,HIM
+JUN@うどん,JUN＠うどん
 Jack,Ｊａｃｋ
 Jason Jae 酒田,Jason Jae サカタ
 K-YAMA,k-yama
@@ -14,10 +15,12 @@ Maochan☆,Maochan★,Maochan,maochan
 Minty Lemon,MintyLemon
 Mizo、,"Mizo,",Ｍｉｚｏ,Mizo
 NYAGORO,NYAGORO2001
+OSAMU@神戸,OSAMU
 OTT2,TT2
 PEDDLER,peddler
 RF31,RF３１
 ROS,ROD
+Rebosome,Rebozome
 Rossi musha,Rossi Musha
 SUIHO,Suiho
 Sammydili,sammydili,SammyDili
@@ -34,6 +37,7 @@ Xiaomu,Xiamu
 YAS.,YAS
 ask2k,ask
 blc49,blc48,BLC48,BLC49
+burdock,Burdock
 carpman,carpma
 cmo11,C-mo11
 d(H-Y)b,(H-Y)
@@ -41,21 +45,24 @@ eastwood,westwood
 ga881,GA881
 genki375,Genki*375
 johondoe991,johndoe991
+josiah.s,josiah
+junkcheem,junkchem
 k-130,K-130
 katos583,katos485
 koushi,Koushi
-kukukukuma,Kukukukuma
+kumakumakuma,Kumakumakuma,kukukukuma,Kukukukuma,Kumakuma
 martha,martua
 meherboys,meherboy
 moncoケンジロウ,moncoけんぢろ〜,monco健二郎
 ossanazuma,osanazuma
 pakupaku,pakupaku 
-punipuni,punipuni 
+punipuni,punipuni
 sage,sage000
 sd_nano,sdnano
 sgo,sgo20160117116,sgoalopha
 sk_mot,sk_not,skmot
 smpp,ｓｍｐｐ
+sphere,★ミsphere☆ミ
 sugisaku,SUGISAKU
 t2-sakai,ｔ２−ｓａｋａｉ
 taros,TAROS
@@ -68,27 +75,25 @@ yuppppppppppa,yuppppa
 ☆★Council★☆,Council☆,☆Council★,council,Council
 ☆まりむ☆,まりむ
 ☆わいあど☆,わいあど
-★Pま★,まP★,まP,Pま(6:4)★,Pま★,Pま
 ★makoto57★,★★makoto57,makoto57
 ★sabeam,sabeam
 ★vwpolo321★,☆vwpolo321☆
-★★★★ 北さん ★★★★,★★★　　北さん　　★★★,★★★北さん★★★,★北さん,北さん
-★★★あざらし,あざらし
+★★★★ 北さん ★★★,★★★★ 北さん ★★★★,★★★　　北さん　　★★★,★★★北さん★★★,★北さん,北さん
 ★★★さとつかんちゃん★★★,☆☆☆さとつかんちゃん☆☆☆
 ★★★しおはる★★★,しおはる
 ★★てっつん☆☆,てっつん
 ★★なおじい★★,なおじい
+★あざらし,★★★あざらし,あざらし
 ★くみちょ～☆,くみちょ～
-★さすらいの神経内科医★,さすらいの脳神経内科医,ひきこもり神経内科
 ★したばたらき★,したばたらき
 ★しゃりけん★,しゃりけん
 ★ちえぞう★,ちえぞう♪,ちえぞう
 ★ちょり★,ちょり
 ★とこま★,とこま
 ★とろろごはんたべたい★,とろろごはん食べたい！
+★まP★,★Pま★,まP★,まP,Pま(6:4)★,Pま★,Pま
 ★まったりーな★,まったりーな
 ★ゆくん★,ゆくん
-★ミsphere☆ミ,sphere
 ★復活,復活★
 ●ＺＺＺくん,ＺＺＺＺＺ君,ＺＺＺくん
 ●ごらりら●,●▲■ごらりら
@@ -101,7 +106,7 @@ yuppppppppppa,yuppppa
 ♪brian,Brian
 Ｎｅｒ,Ner
 ｔｙｔｙｔｙｔｙ,tytytyty,ｔｙｔｙｔｙ,tytyty
-あかりぱぱ,あかりパパ
+あかりパパ,あかりぱぱ
 あや文,あや文（まきもの）,まきもの
 いーにょん,い〜にょん
 ういず,うぃず
@@ -110,7 +115,6 @@ yuppppppppppa,yuppppa
 うんげほいあー,うんげほいあ
 えすこま320,えすこま
 え～じぃ,え〜じぃ
-おーちゃん★,おーちゃん
 おぐＰちゃん,おぐPちゃん,おぐP−ちゃん,おぐP－ちゃん
 おにぎり＠芋洗坂,おにぎり
 かとちゃぼ,カトチャボ
@@ -132,6 +136,7 @@ yuppppppppppa,yuppppa
 さんさんやまやま,さんやま,やまさん,やまやまさんさん,やまやまさん
 しのしの＠大阪,しのしの@大阪
 じぇふゆな,ジェフユナ
+じょろ吉,ジョロ吉
 じょんだよ！！！！！！,じょんだよ！,じょんだよ
 じょ～じくん,じょ～じ君,じょ〜じ君,じょ?じ君,じょ〜じ
 せたがやのおさるさん,ぜたがやのおさるさん,世田谷のおさるさん
@@ -153,8 +158,11 @@ yuppppppppppa,yuppppa
 ぬま?りん,ぬまりん,ぬまりん
 はくぶん,はくぶｎ
 はらたいまに3000点,はらたいまに全部
+はるたけあい,はるたけ
 はるまき,春巻生春巻,春巻き生春巻き,はるまきなまはるまき
 はろ@HALO,はろ＠HALO
+ぱるち&さおりん☆,ぱるち&さおるん☆
+ひきこもり神経内科,★さすらいの神経内科医★,さすらいの脳神経内科医
 ひだかよしひと,ひだか よしひと
 ひら☆けん,ひらけん※※,ひらけん
 ひろひろたっぷさん,ひろひろタップさん,ひろひろたっぷ,ひろたっぷ
@@ -172,6 +180,7 @@ yuppppppppppa,yuppppa
 むんふー(蒲郡市),むんふー
 もりし☆,もりし
 もんき〜3号,もんき?3号
+もんもんちゃん,もんもん
 やーまん,ヤーマン
 やぴ,ヤピ
 よりぽん,よりぽん28ch
@@ -180,6 +189,7 @@ yuppppppppppa,yuppppa
 りっこ★,りっこ
 りっぷる・ふぉっくす,りっぷるふぉっくす
 れんこん★,れんこん
+わかったの2回めです！,初めてわかったかも
 わきんちょ★,わきんちょ☆,わきんちょ
 アミーゴ★,アミーゴ
 イマジンガーグル,imaginegargle,イマジン・ガーグル
@@ -193,19 +203,18 @@ yuppppppppppa,yuppppa
 ゴキンちゃん,ゴキンチャン
 ゴロタの女神,ゴロタ場の女神
 サットマン４,サットマン３,サットマン
-サボテン５,サボテン,サボテン55
+サボテン5,サボテン５,サボテン,サボテン55
 ジェイソン・ジェイ・サカタ,ジェイソン酒田
 ジャコKIRIMI,じゃこKirimi,じゃこKiRIMI
-ジョロ吉,じょろ吉
 タロニスティ,タロネスティ
 ヅラ･タロー,ヅラ・タロー
-ティン子ちゃん公式アカウント,ティン子ちゃん,ティンパニの妖精ティン子ちゃん
+ティン子ちゃん(ティンパニの妖精),ティン子ちゃん公式アカウント,ティン子ちゃん,ティンパニの妖精ティン子ちゃん
 ナインテール,ナインテイル
 ニャンマイク,にゃんマイク
 ハオコゼ21号,ハオコゼ２１号
 ハナフクロウ,はなふくろう
 バケラッタ！,バケラッタ
-ピロシキ！！！,ピロシキ
+ピロシキ,ピロシキ！！！
 フェルディナンド,フェルディナント高島
 フミさんさん,ふみさんさん
 プリン好きのネコ,プリン好きのねこ
@@ -221,10 +230,12 @@ yuppppppppppa,yuppppa
 遺産相続で大変なダンディ,４０歳で２５歳の女性の部下のダンディ
 横浜すずめ,横浜くらげ,横浜西口くらげ
 俺の長男と俺の息子■,俺の長男と俺の息子
+記憶不鮮明,視界不鮮明
 吉田 左京,吉田左京
 古賀及子ファン倶楽部会員番号001,古賀及子ファンクラブ会員番号001
 此処じゃない何処,此処じゃない何処か,ここじゃないどこか
 山D,山Ｄ
+山奇易車干シューマイ,山奇阝易車干シューマイ
 紙状,紙状(@yomikatajiyu),紙路
 升谷 保博,升谷保博
 真夜中ナラティブ,真夜中のナラティ
