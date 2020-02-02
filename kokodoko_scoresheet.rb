@@ -116,7 +116,19 @@ if ARGV[1] == "sort" then
     end
     puts s.join(',')
   }
-
+elsif ARGV[1] == "json" then
+  puts '{"data":['
+  h.sort_by.with_index{|s,i|
+    [s[1].values_at,i]
+  }.map.with_index(1){|m,i|
+    n, k = m
+    s=n.dup
+    kk = k.values_at(*da).map{|e| e ? e : ""}
+    print ([s]+kk+[k.size]).to_s.gsub!(/, /,',')
+    print "," if i != h.size
+    print "\n"
+  }
+  puts ']}'
 else
   sep  = ARGV[1] == "table" ? '|' : ','
   ends = ARGV[1] == "table" ? '|' : ''
